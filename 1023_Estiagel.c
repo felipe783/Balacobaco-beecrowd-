@@ -5,5 +5,8 @@
 #include <stdbool.h>
 
 int main(){
-    printf("A");
+    int x,y,n,aux;
+    while(aux !=0){
+        
+    }
 }
