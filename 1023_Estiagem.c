@@ -7,6 +7,6 @@
 int main(){
     int x,y,n,aux;
     while(aux !=0){
-        
+        printf("dasdasdas");
     }
 }
