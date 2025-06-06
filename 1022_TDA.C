@@ -39,5 +39,4 @@ int main(){
     sb=baixo/mdc;
     printf("%i/%i=%i/%i", cima, baixo, sc, sb);
     getch();
-    return 0;
 }    
