@@ -5,8 +5,8 @@
 #include <stdbool.h>
 
 int main(){
-    int aux=1,i,j,x,qntd=0,moradores[100],consumo[100],tamanho,moradores_total=0,consumo_total=0,cidade=1;//esses moradores/consumo é tipo a lista de python para tirar é moradora[0....] 
-    float media_individual[100],media_total;
+    int aux=1,i,j,moradores[100],consumo[100],moradores_total=0,consumo_total=0,cidade=1;//esses moradores/consumo é tipo a lista de python para tirar é moradora[0....] 
+    float media_total;
     while(aux!=0){
         printf("Fale quantas casas:");
         scanf("%i",&aux);
@@ -22,8 +22,8 @@ int main(){
         scanf("%i %i",&moradores[i],&consumo[i]);
         }
         //Ordenaçao Bubble sort
-        for(int i = 0; i < aux - 1; i++) {
-            for(int j = 0; j < aux - i - 1; j++) {
+        for( i = 0; i < aux - 1; i++) {
+            for( j = 0; j < aux - i - 1; j++) {
                 if (consumo[j] / moradores[j] > consumo[j + 1] / moradores[j + 1]) {//essa parte dei ctrl C mesmo e se foda
                     int temp = moradores[j];
                     moradores[j] = moradores[j + 1];
@@ -44,9 +44,10 @@ int main(){
         media_total=(float)consumo_total/moradores_total;
         printf("Cidade #%i\n",cidade);
         for (i = 0; i < aux; i++) {
-            printf("%i-%i\n ", moradores[i], consumo[i] / moradores[i]);
+            printf("%i-%i\n", moradores[i], consumo[i] / moradores[i]);
         }
         printf("Consumo medio %.2f \n",media_total);
         cidade++;
     }
+    return 0;
 }
