@@ -14,6 +14,7 @@ int main(){
 		scanf("%f",&notas[i]);
 		printf("\nFale o peso da nota:");
 		scanf("%f",&pesos[i]);
+		aux3 +=pesos;
 	}
 	//Media
 	for(i=0;i<aux;i++){
@@ -24,9 +25,10 @@ int main(){
 	for(i=0;i<aux;i++){
 		nota2[i]=notas[i]*pesos[i];
 		aux3 +=nota2[i];
+		
 	}
 	media=aux2/aux;
-	mediaP=aux3/10;
+	mediaP=aux3/aux3;
 	printf("\nMedia= %.2f",media);
 	printf("\nMedia Ponderada= %.2f",mediaP);
 	if(mediaP>=7){
@@ -42,3 +44,4 @@ int main(){
 	}
 
 }
+
