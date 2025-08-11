@@ -20,13 +20,13 @@ int main(){
 	j=0;
 	for(x=0;x<6;x++){
 		if(vet1[i]>vet2[j]){
-		vet3[x]=vet1[i];
-	}
-	else{
-		vet3[x]=vet2[j];
-	}
-	i++;
-	j++;
+			vet3[x]=vet1[i];
+		}
+		else{
+			vet3[x]=vet2[j];
+		}
+		i++;
+		j++;
 	}	
 	//Vetor final
 	printf("Vetor com os maiores valores:\n");
