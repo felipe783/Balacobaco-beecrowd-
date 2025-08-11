@@ -18,10 +18,10 @@ int main(){
   }
   media=aux/aluno;
   //diferença
+  aluno=0;
   for(i=0;i<5;i++){
     dif=0;
     dif=nota[i]-media;
-    aluno=0;
     aluno++;
     printf("\nA diferenca do aluno %i e: %.2f",aluno,dif);
   }
