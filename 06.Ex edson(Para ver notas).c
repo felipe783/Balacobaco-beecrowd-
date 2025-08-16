@@ -28,6 +28,7 @@ int main(){
 			}
 		}
 		//Media
+		Soma_Notas = 0;
 		if(tipo==1){
 			for(i=0;i<num_notas;i++){
 				Soma_Notas +=nota[i];			
