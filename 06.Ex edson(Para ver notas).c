@@ -22,7 +22,7 @@ int main(){
 			printf("Fale a nota %iº:\n",i+1);
 			scanf("%f",&nota[i]);
 			//Pesos
-			if(tipo==2){
+			if(tipo != 1){
 				printf("Fale o peso:\n");
 				scanf("%f",&pesos[i]);
 			}
