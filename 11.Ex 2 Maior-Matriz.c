@@ -2,16 +2,17 @@
 #include <conio.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include <time.h>
 
 int main(){
 	int i,j;
-	int matrizA[3][3]{
+	int matrizA[3][3]{ //Uma forma de definir os valores da matriz
 		{5,8,2},
 		{7,4,9},
 		{6,1,3}
 	};
-	int matrizB[3][3] = {3,9,1,2,5,7,8,0,4};
-	int matrizC[3][3]={0};
+	int matrizB[3][3] = {3,9,1,2,5,7,8,0,4}; //Segunda forma 
+	int matrizC[3][3]={0}; //Forma de declarar a matriz,e falando q ele é igual a zero(nula) 
 	
 	for(i=0;i<3;i++){ //LINHAS
 		for(j=0;j<3;j++){ //COLUNAS
