@@ -9,10 +9,10 @@ int main(){
 	for (i=0;i<4;i++){ //LINHAS
 		for(j=0;j<4;j++){ //COLUNAS
 			if(j==i){
-				printf("1");
+				printf(" 1 ");
 			}
 			else{
-				printf("0");
+				printf(" 0 ");
 			}
 		}
 		printf("\n");//Quebra a linha pq ce nao fudeo
