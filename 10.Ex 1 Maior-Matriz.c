@@ -6,7 +6,7 @@
 int main(){
 	int i,j;
 	int matriz[4][4];
-	for (i=0;i<4;i++){ //LINHAS
+	for (i=0;i<4;i++){  //LINHAS
 		for(j=0;j<4;j++){ //COLUNAS
 			if(j==i){
 				printf(" 1 ");
