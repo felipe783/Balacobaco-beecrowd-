@@ -4,6 +4,8 @@
 #include <stdio.h>
 #include <time.h>
 
+//FAZER UMA MATRIZ COM OS MAIORES VALORES
+
 int main(){
 	int i,j;
 	int matrizA[3][3]{ //Uma forma de definir os valores da matriz
