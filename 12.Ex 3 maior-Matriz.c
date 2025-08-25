@@ -18,11 +18,13 @@ int main(){
 				soma +=	matriz[i][j]; //soma diagonal principal
 				div++;
 			}
-			if(j == 4-1-i){ //o 4 é o numero da matriz 4x4 
+			//formula n-1-i
+			if(j ==4-1-i){ //o 4 é o numero da matriz 4x4 
 				soma2 += matriz[i][j];
 				div2++;
 			}
-			
+			//if(i+j==3)
+			//isso tbm vai dar a diagonal secundaria o 3 é pq comaça em 0 e não em 1
 		}
 		printf("\n");//Quebra a linha pq ce nao fudeo
 	}
