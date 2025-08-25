@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+//FAZER A DIAGONAL PRINCIPAL
 int main(){
 	int i,j;
 	int matriz[4][4];
