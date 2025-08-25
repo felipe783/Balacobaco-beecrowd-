@@ -11,7 +11,7 @@ int main(){
 	setlocale(LC_ALL, ""); //pra ficar bonito
 	int matriz[3][3] = {};
 	int i,j;
-	int soma[3],somaTotal;
+	int soma[3]={0},somaTotal=0;
 	for(i=0;i<3;i++){ //Matriz
 		for(j=0;j<3;j++){
 	 		printf("Fale o numero na posição [%d][%d]:",i,j);
