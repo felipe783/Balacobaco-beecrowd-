@@ -29,7 +29,7 @@ int main(){
 	for(i=0;i<3;i++){ //vetor
 		for(j=0;j<3;j++){
 			somaTotal += matriz[i][j];
-			soma[i] += matriz[i][j];
+			soma[i] += matriz[i][j]; //soma por linhas
 		}
 	}
 	printf("\nSoma total %d",somaTotal);
