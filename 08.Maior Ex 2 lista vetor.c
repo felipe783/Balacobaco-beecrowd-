@@ -3,6 +3,7 @@
 #include <stdlab.h>
 #include <conio.h>
 
+//Defina um algoritmo que leia 2 vetores com 6 elementos cada e gere um vetor,também com 6 posições, onde cada elemento desse novo vetor é o maior na comparação dos vetores lidos.
 int main(){
 	int i,j,vet1[6],vet2[6],vet3[6],vet4[6],x;
 	//vetores
