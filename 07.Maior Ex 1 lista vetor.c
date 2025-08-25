@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <math.h>
 
+//Fazer um algoritmo que leia a nota de 5 alunos, calcule a média entre elas e imprima a diferença entre cada nota e a média. Gerando um novo vetor com essa resposta de cálculo.
 int main(){
   int i,aluno=0;
   float nota[5],media,aux,dif;
