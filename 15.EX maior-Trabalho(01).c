@@ -8,15 +8,24 @@
 //coluna valores de B
 
 int main(){
-	int A[6]={1,2,3,4,5,6};
-	int B[6]={7,8,9,10,11,12};
+	int A[6];
+	int B[6];
 	int C[6][2]={0};
 	int j,i;
-	
-	for(i=0;i<6;i++){ //lINHAS
-		for(j=0;j<2;j++){ //Colunas
+	for(i=0;i<6;i++){
+		printf("\nFale os numeros do Vetor A:");
+		scanf("%d",&A[i]);
+	}
+	for(i=0;i<6;i++){
+		printf("\nFale os numeros do Vetor B:");
+		scanf("%d",&B[i]);
+	}
+	printf("\n=========================================================================\n");
+	//Matriz
+	for(i=0;i<6;i++){ 
+		for(j=0;j<2;j++){ 
 			C[i][j]=A[i];
-			if (j==1){
+			if (j==1){ //Sa porra aqui é pra separar o Vetor B pra ele ir obrigatoriamente pra segunda coluna
 				C[i][j]=B[i];
 			}
 		}
