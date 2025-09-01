@@ -19,7 +19,7 @@ int main(){
 	scanf("%d",&linha);
 	printf("\nFale a dimensao da coluna:");
 	scanf("%d",&coluna);
-    int A[linha][coluna];
+    float A[linha][coluna];
     // Deixa o vetor com zero tudo
     for(j = 0; j < coluna; j++){
         soma[j] = 0;
@@ -28,7 +28,7 @@ int main(){
     for(i=0;i<linha;i++){
         for(j=0;j<coluna;j++){ //Coluna
             printf("Fale o valor na posicao[%d][%d]:",i,j);
-            scanf("%d",&A[i][j]);
+            scanf("%f",&A[i][j]);
             soma[j] += A[i][j];    
         }
     } 
