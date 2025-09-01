@@ -5,6 +5,10 @@
 #include <time.h>
 #include <locale.h>
 
+/*Faça um algoritmo que monte uma matriz com as dimensões do usuário e crie
+um vetor onde cada posição armazena a soma dos elementos da coluna
+correspondente.*/
+
 int main(){
     int i,j;
     // i é linha e j coluna
