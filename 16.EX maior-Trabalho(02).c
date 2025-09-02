@@ -9,7 +9,7 @@ por linha. Essa média deve ser armazenada em um vetor de 3 linhas.*/
 int main(){
 	float C[3][4]={0};
 	int i,j,cont,aluno;
-	float media,soma;
+	float media[3],soma;
 	printf("Quantas notas por aluno:");
 	scanf("%d",&aluno);
 	for(i=0;i<3i++){
@@ -37,13 +37,13 @@ int main(){
 	for(i=0;i<3;i++){ //Linhas
 		for(j=0;j<4;j++){ //Colunas
 			soma +=C[i][j];	
-			media=soma/aluno;
 		}
-		printf("\nA media da Linha [%i]:%.2f",i,media);
-		printf("\n");
 		soma=0;
-		media=0;
+		media[i]=soma/aluno;
 	}	
+	for(i=0;i<3;i++){
+        printf("\n %.2f",media[i]);
+    }
 	getch();
 	
 }
