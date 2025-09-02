@@ -8,7 +8,7 @@ por linha. Essa média deve ser armazenada em um vetor de 3 linhas.*/
 
 int main(){
 	float C[3][4]={0};
-	int i,j,cont,aluno=4;
+	int i,j,cont,aluno;
 	float media,soma;
 	printf("Quantas notas por aluno:");
 	scanf("%d",&aluno);
