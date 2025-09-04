@@ -32,7 +32,7 @@ int main(){
             soma[j] += A[i][j];    
         }
     } 
-    for(j=0;j<linha;j++){
+    for(j=0;j<coluna;j++){
         printf("\nA soma dos elementos da coluna %d e:[%.2f]\n",j,soma[j]);
     }
     return 0;
